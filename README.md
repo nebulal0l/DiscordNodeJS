@@ -37,16 +37,45 @@ This bot is modular, easy to extend, and built to adapt to your server's needs.
 
 ## 🛠️ **Installation**
 
-### **1. Prerequisites**
+### 🌐 **1. Prerequisites**
 
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or later)
 - [Git](https://git-scm.com/)
-- A **Discord Bot Token** from the [Discord Developer Portal](https://discord.com/developers/applications)
+- Your **Discord Bot Token** from the [Discord Developer Portal](https://discord.com/developers/applications)
 
-### **2. Clone the Repository**
+### 📜 **2. Clone the Repository**
 
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/nebulal0l/DiscordNodeJS.git
 cd discord-bot
+```
+
+### **3. Turn into Node Project.**
+Using the terminal in your IDE, Run the command
+```bash
+npm install
+```
+This will start the installation process to make it into a Node Project.
+
+### **4. Download Discord.JS**
+Using your terminal, in your IDE. run
+```bash
+npm install discord.js
+```
+### 🔥 **How to start.**
+In your terminal in your IDE, run the command
+```bash
+node index.js
+```
+### 🗒️ **Note**
+In config.json
+```json
+{
+    "token": "",
+    "prefix": "."
+  }
+  ```
+
+Fill it out.
