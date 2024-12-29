@@ -48,5 +48,5 @@ Ensure you have the following installed:
 
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/discord-bot.git
+git clone https://github.com/nebulal0l/DiscordNodeJS.git
 cd discord-bot
